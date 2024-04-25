@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+img{
+  vertical-align: bottom;
+  max-width: 100%;
+}
+input,button,textarea{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.header__box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container{
+max-width: 1140px;  
+width: 100%;
+margin: 0 auto;
+padding: 0 15px;
+}
+.title{
+  font-size: 36px;
+  font-weight:600;
+  color: #000000;
+  line-height: 43.2px;
+}
+.subtitle{
+  font-size: 18px;
+  font-weight: 700;
+  color:#101010 ;
+  text-align: center;
+  line-height:21.6px;
+}
+
+.btn{
+  display: inline-block;
+  font-size: 14px;
+  
+}
